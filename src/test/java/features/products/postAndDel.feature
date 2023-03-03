@@ -15,3 +15,4 @@ Feature: Testing product API with POST and DELETE requests
     When    method Delete
     Then    status 200
     * print response
+    And match response == 'Deleted'
